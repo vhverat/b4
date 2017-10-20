@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Plantilla</title>
+    <link rel="stylesheet" href="assets/b4/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-3">
+        <div class="col">
+          <form class="" action="index.html" method="post">
+            <div class="form-group row">
+              <div class="col-12 col-md-6">
+                <label for="nombre">Nombre :</label>
+                <input type="text" name="nombre" id="nombre"
+                class="form-control"
+                value="" placeholder="Nombre">
+              </div>
+              <div class="col-12 col-md-6">
+                <label for="pass">Contraseña :</label>
+                <input type="password" name="pass" id="ppass"
+                class="form-control"
+                value="" placeholder="Contraseña">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <div class="col-12 col-md-6">
+                <label for="Mensaje">Mensaje :</label>
+                <textarea type="text" name="Mensaje" id="Mensaje"
+                class="form-control"
+                value="" placeholder="Mensaje"></textarea>
+              </div>
+              <div class="col-12 col-md-3">
+                <label>Sexo :</label>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="radio" name="sexo" id="hombre"
+                           class="form-check-input mr-2">Hombre
+                  </label>
+                  <label class="form-check-label">
+                    <input type="radio" name="sexo" id="mujer"
+                           class="form-check-input mr-2">mujer
+                  </label>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-3">
+                <label for="pais">Pais :</label>
+                <select class="form-control" name="pais" id="pais">
+                  <option value="Bolivia">Bolivia</option>
+                  <option value="Bolivia">Bolivia</option>
+                  <option value="Bolivia">Bolivia</option>
+                  <option value="Bolivia">Bolivia</option>
+                </select>
+
+              </div>
+
+            </div>
+
+            <div class="form-group row">
+              <div class="col-12 text-center">
+                <label class="form-check-label">
+                  <input type="checkbox" name="termino" id="termino"
+                  class="form-check-input mr-2 mb-3">Acepto terminos y condiciones
+                </label>
+                <div class="row justify-content-center">
+                  <div class="col-12 col-sm-9 col-md-4">
+                    <button class="btn btn-primary btn-block" type="submit" name="button">Enviar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </form>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/jquery/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="assets/popper/popper.min.js" /></script>
+    <script type="text/javascript" src="assets/b4/js/bootstrap.min.js" /></script>
+  </body>
+</html>
