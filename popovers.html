@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Plantilla</title>
+    <link rel="stylesheet" href="assets/b4/css/bootstrap.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col">
+          <h2>Popovers</h2>
+          <hr>
+          <button class="btn btn-primary"
+                  data-toggle="popover"
+                  data-container="body"
+                  data-placement="top"
+                  title="Titulo del popover"
+                  data-content="dsf sdf sdfdsf sdf sdf sdf sdf sdf sdfsdf ff"
+                  type="button"
+                  name="button">Arriba</button>
+          <button class="btn btn-primary"
+                  data-toggle="popover"
+                  data-container="body"
+                  data-placement="left"
+                  title="Titulo del popover"
+                  data-content="dsf sdf sdfdsf sdf sdf sdf sdf sdf sdfsdf ff"
+                  type="button"
+                  name="button">Arriba</button>
+          <button class="btn btn-primary"
+                  data-toggle="popover"
+                  data-container="body"
+                  data-placement="right"
+                  title="Titulo del popover"
+                  data-content="dsf sdf sdfdsf sdf sdf sdf sdf sdf sdfsdf ff"
+                  type="button"
+                  name="button">Arriba</button>
+          <button class="btn btn-primary"
+                  data-toggle="popover"
+                  data-container="body"
+                  data-placement="bottom"
+                  title="Titulo del popover"
+                  data-content="dsf sdf sdfdsf sdf sdf sdf sdf sdf sdfsdf ff"
+                  type="button"
+                  name="button">Arriba</button>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/jquery/jquery.slim.min.js"></script>
+    <script type="text/javascript" src="assets/popper/popper.min.js" /></script>
+    <script type="text/javascript" src="assets/b4/js/bootstrap.min.js" /></script>
+    <script type="text/javascript">
+      $(function(){
+        $('[data-toggle="popover"]').popover()
+      })
+    </script>
+  </body>
+</html>
